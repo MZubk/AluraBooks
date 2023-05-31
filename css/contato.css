@@ -43,18 +43,19 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .contato__titulo {
-        font-size: 24px;
-        width: 30%;
-    }
 
-    .contato__descricao {
+    .contato {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
+    .contato__titulo {
+        font-size: 24px;
+    }
+
     .contato__descricao {
+        width: 30%;
         margin-right: 1em;
     }
 
