@@ -55,12 +55,10 @@
     text-transform: uppercase;
 }
 
-.container__botao {
-    display: none;
-}
-
+.container__botao,
 .container__titulo,
-.opcoes {
+.opcoes,
+.container__texto {
     display: none;
 }
 
@@ -108,5 +106,26 @@
 
     .opcoes__botao {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__texto {
+        display: block;
+    }
+
+    .cabecalho {
+        padding: 0 2.5em;
+    }
+
+    .opcoes {
+        margin-right: auto;
     }
 }
